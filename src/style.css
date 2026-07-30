@@ -1,0 +1,47 @@
+:root {
+  --ink: #1c1c1a;
+  --sub: #5d5f5a;
+  --line: #dcdcd4;
+  --paper: #fbfaf5;
+  --spruce: #2f5d50;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1.25rem 4rem;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+main { max-width: 42rem; margin: 0 auto; }
+h1 { font-size: 1.75rem; margin: 0 0 0.25rem; }
+#pitch { color: var(--sub); margin: 0 0 2rem; }
+
+.list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.row-title {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: var(--spruce);
+  cursor: pointer;
+  text-align: left;
+}
+.row-title:hover { text-decoration: underline; }
+.row-meta { color: var(--sub); font-size: 0.875rem; white-space: nowrap; }
+.row[data-band="fast"] .row-meta { color: var(--ink); }
+
+.detail { margin-top: 2rem; padding-top: 1rem; border-top: 2px solid var(--spruce); }
+.detail h2 { margin: 0 0 0.25rem; font-size: 1.25rem; }
+.detail-meta { color: var(--sub); margin: 0; }
+
+.empty { color: var(--sub); padding: 1.5rem 0; }
