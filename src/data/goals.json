@@ -1,0 +1,52 @@
+[
+  {
+    "id": "r1",
+    "title": "New bike",
+    "targetCents": 45000,
+    "savedCents": 12000,
+    "category": "transport",
+    "tags": [
+      "short"
+    ]
+  },
+  {
+    "id": "r2",
+    "title": "Deposit",
+    "targetCents": 900000,
+    "savedCents": 240000,
+    "category": "housing",
+    "tags": [
+      "long"
+    ]
+  },
+  {
+    "id": "r3",
+    "title": "Winter coat",
+    "targetCents": 18000,
+    "savedCents": 18000,
+    "category": "clothing",
+    "tags": [
+      "done"
+    ]
+  },
+  {
+    "id": "r4",
+    "title": "Trip home",
+    "targetCents": 120000,
+    "savedCents": 35000,
+    "category": "travel",
+    "tags": [
+      "short"
+    ]
+  },
+  {
+    "id": "r5",
+    "title": "Emergency fund",
+    "targetCents": 600000,
+    "savedCents": 150000,
+    "category": "safety",
+    "tags": [
+      "long"
+    ]
+  }
+]
